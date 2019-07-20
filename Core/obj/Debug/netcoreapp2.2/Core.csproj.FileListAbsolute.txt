@@ -7,3 +7,6 @@ D:\Practice\API_Evolution\API_New_Template\Core\obj\Debug\netcoreapp2.2\Core.Ass
 D:\Practice\API_Evolution\API_New_Template\Core\obj\Debug\netcoreapp2.2\Core.dll
 D:\Practice\API_Evolution\API_New_Template\Core\obj\Debug\netcoreapp2.2\Core.pdb
 D:\Practice\API_Evolution\API_New_Template\Core\obj\Debug\netcoreapp2.2\Core.csprojResolveAssemblyReference.cache
+D:\Practice\API_Evolution\API_New_Template\Core\bin\Debug\netcoreapp2.2\Models.dll
+D:\Practice\API_Evolution\API_New_Template\Core\bin\Debug\netcoreapp2.2\Models.pdb
+D:\Practice\API_Evolution\API_New_Template\Core\obj\Debug\netcoreapp2.2\Core.csproj.CopyComplete
