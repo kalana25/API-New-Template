@@ -1,0 +1,14 @@
+D:\Practice\API_Evolution\API_New_Template\DAL\bin\Debug\netcoreapp2.2\DAL.deps.json
+D:\Practice\API_Evolution\API_New_Template\DAL\bin\Debug\netcoreapp2.2\DAL.runtimeconfig.json
+D:\Practice\API_Evolution\API_New_Template\DAL\bin\Debug\netcoreapp2.2\DAL.runtimeconfig.dev.json
+D:\Practice\API_Evolution\API_New_Template\DAL\bin\Debug\netcoreapp2.2\DAL.dll
+D:\Practice\API_Evolution\API_New_Template\DAL\bin\Debug\netcoreapp2.2\DAL.pdb
+D:\Practice\API_Evolution\API_New_Template\DAL\bin\Debug\netcoreapp2.2\Models.dll
+D:\Practice\API_Evolution\API_New_Template\DAL\bin\Debug\netcoreapp2.2\Models.pdb
+D:\Practice\API_Evolution\API_New_Template\DAL\obj\Debug\netcoreapp2.2\DAL.csprojResolveAssemblyReference.cache
+D:\Practice\API_Evolution\API_New_Template\DAL\obj\Debug\netcoreapp2.2\DAL.csproj.CoreCompileInputs.cache
+D:\Practice\API_Evolution\API_New_Template\DAL\obj\Debug\netcoreapp2.2\DAL.AssemblyInfoInputs.cache
+D:\Practice\API_Evolution\API_New_Template\DAL\obj\Debug\netcoreapp2.2\DAL.AssemblyInfo.cs
+D:\Practice\API_Evolution\API_New_Template\DAL\obj\Debug\netcoreapp2.2\DAL.csproj.CopyComplete
+D:\Practice\API_Evolution\API_New_Template\DAL\obj\Debug\netcoreapp2.2\DAL.dll
+D:\Practice\API_Evolution\API_New_Template\DAL\obj\Debug\netcoreapp2.2\DAL.pdb

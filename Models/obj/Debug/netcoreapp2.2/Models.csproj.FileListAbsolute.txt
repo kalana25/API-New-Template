@@ -1,0 +1,9 @@
+D:\Practice\API_Evolution\API_New_Template\Models\bin\Debug\netcoreapp2.2\Models.deps.json
+D:\Practice\API_Evolution\API_New_Template\Models\bin\Debug\netcoreapp2.2\Models.dll
+D:\Practice\API_Evolution\API_New_Template\Models\bin\Debug\netcoreapp2.2\Models.pdb
+D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.csproj.CoreCompileInputs.cache
+D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfoInputs.cache
+D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfo.cs
+D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.dll
+D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.pdb
+D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.csprojResolveAssemblyReference.cache
