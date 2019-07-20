@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Core.Repositories;
 using System.Threading.Tasks;
+using Repositories.Styles;
 
-namespace Core.Repositories
+namespace Repositories
 {
     public interface IUnitOfWork : IDisposable
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Core.Repositories;
+using Repositories.Styles;
 using System.Threading.Tasks;
 using DAL;
 

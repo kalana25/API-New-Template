@@ -4,9 +4,9 @@ using System.Text;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Core.Repositories
+namespace Repositories
 {
-    public interface IRepository<TEntity> where TEntity:class
+    public interface IRepository<TEntity> where TEntity : class
     {
         Task<TEntity> Get(int id);
         Task<IEnumerable<TEntity>> GetAll();

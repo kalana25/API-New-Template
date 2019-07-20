@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
-using Core.Repositories;
 using Models;
 using System.Threading.Tasks;
 using DAL;
 using Microsoft.EntityFrameworkCore;
 
-namespace Repositories
+namespace Repositories.Styles
 {
-    public class StyleRepository : Repository<Style>,IStyleRepository
+    public class StyleRepository : Repository<Style>, IStyleRepository
     {
         public StyleRepository(DataBaseContext context) : base(context)
         {

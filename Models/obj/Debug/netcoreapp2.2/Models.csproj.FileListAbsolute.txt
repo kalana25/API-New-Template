@@ -6,4 +6,3 @@ D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models
 D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfo.cs
 D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.dll
 D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.pdb
-D:\Practice\API_Evolution\API_New_Template\Models\obj\Debug\netcoreapp2.2\Models.csprojResolveAssemblyReference.cache

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Models;
 using System.Threading.Tasks;
+using Models;
 
-namespace Core.Repositories
+namespace Repositories.Styles
 {
     public interface IStyleRepository : IRepository<Style>
     {

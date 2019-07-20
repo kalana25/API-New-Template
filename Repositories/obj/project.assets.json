@@ -944,19 +944,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Models": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.dll": {}
-        }
-      },
       "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -3641,11 +3628,6 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "Core/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
-    },
     "DAL/1.0.0": {
       "type": "project",
       "path": "../DAL/DAL.csproj",
@@ -3659,7 +3641,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Core >= 1.0.0",
       "DAL >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
@@ -3697,9 +3678,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Practice\\API_Evolution\\API_New_Template\\Core\\Core.csproj": {
-              "projectPath": "D:\\Practice\\API_Evolution\\API_New_Template\\Core\\Core.csproj"
-            },
             "D:\\Practice\\API_Evolution\\API_New_Template\\DAL\\DAL.csproj": {
               "projectPath": "D:\\Practice\\API_Evolution\\API_New_Template\\DAL\\DAL.csproj"
             }

@@ -12,5 +12,3 @@ D:\Practice\API_Evolution\API_New_Template\Repositories\obj\Debug\netcoreapp2.2\
 D:\Practice\API_Evolution\API_New_Template\Repositories\obj\Debug\netcoreapp2.2\Repositories.csproj.CopyComplete
 D:\Practice\API_Evolution\API_New_Template\Repositories\obj\Debug\netcoreapp2.2\Repositories.dll
 D:\Practice\API_Evolution\API_New_Template\Repositories\obj\Debug\netcoreapp2.2\Repositories.pdb
-D:\Practice\API_Evolution\API_New_Template\Repositories\bin\Debug\netcoreapp2.2\Core.dll
-D:\Practice\API_Evolution\API_New_Template\Repositories\bin\Debug\netcoreapp2.2\Core.pdb
