@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{32C3CA1C-D58F-41A5-853D-5EF11A07AC82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{F63D47B8-9F7F-4E2C-817F-2EC6C3458A15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{F63D47B8-9F7F-4E2C-817F-2EC6C3458A15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{DEE411D4-FE9F-40B9-851D-C54EEF8A736E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{DEE411D4-FE9F-40B9-851D-C54EEF8A736E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases", "UseCases\UseCases.csproj", "{F608EC51-7F68-4DD6-9705-9FC85C004FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseCases", "UseCases\UseCases.csproj", "{F608EC51-7F68-4DD6-9705-9FC85C004FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{C69732E9-236A-4C76-ABF1-664E8FD96D61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F608EC51-7F68-4DD6-9705-9FC85C004FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F608EC51-7F68-4DD6-9705-9FC85C004FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F608EC51-7F68-4DD6-9705-9FC85C004FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69732E9-236A-4C76-ABF1-664E8FD96D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69732E9-236A-4C76-ABF1-664E8FD96D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69732E9-236A-4C76-ABF1-664E8FD96D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69732E9-236A-4C76-ABF1-664E8FD96D61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
