@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using DAL;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
@@ -23,6 +25,8 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            string dbConnection = @"Server=LAPTOP-RJQNADTT\SQLEXPRESS;Database=NewAPITemplateDB;Trusted_Connection=True;ConnectRetryCount=0";
+            services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(dbConnection));
             services.AddMvc();
         }
 
@@ -33,7 +37,7 @@ namespace API
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }
