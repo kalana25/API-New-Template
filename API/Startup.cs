@@ -34,7 +34,7 @@ namespace API
             
             
             //string dbConnection = @"Server=LAPTOP-RJQNADTT\SQLEXPRESS;Database=NewAPITemplateDB;Trusted_Connection=True;ConnectRetryCount=0";
-            //services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(dbConnection));
+            services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(AppSettings.ConnectionString.Development));
             //services.AddScoped<IUnitOfWork, UnitOfWork>();
             
             services.AddMvc();

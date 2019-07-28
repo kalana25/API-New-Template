@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Core.DI;
 
 namespace Repositories
 {
+    [AutoDIService]
     public interface IRepository<TEntity> where TEntity : class
     {
         Task<TEntity> Get(int id);
