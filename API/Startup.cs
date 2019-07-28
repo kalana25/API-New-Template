@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Swashbuckle.AspNetCore.Swagger;
 using DAL;
+using Core.General;
+using Core.DI;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
@@ -22,13 +24,19 @@ namespace API
         }
 
         public IConfiguration Configuration { get; }
+        public AppSettings AppSettings { get; set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string dbConnection = @"Server=LAPTOP-RJQNADTT\SQLEXPRESS;Database=NewAPITemplateDB;Trusted_Connection=True;ConnectRetryCount=0";
-            services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(dbConnection));
+            this.AppSettings = services.AddServiceCore(Configuration);
+            services.AutoDIRegisterService();
+            
+            
+            //string dbConnection = @"Server=LAPTOP-RJQNADTT\SQLEXPRESS;Database=NewAPITemplateDB;Trusted_Connection=True;ConnectRetryCount=0";
+            //services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(dbConnection));
             //services.AddScoped<IUnitOfWork, UnitOfWork>();
+            
             services.AddMvc();
             services.AddSwaggerGen(c =>
             {
